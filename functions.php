@@ -168,4 +168,5 @@ function result($count){
 function sendEmail($to , $title , $body){
 $header = "From: malik060@heshamkhaled.online " . "\n" . "CC: heshamkhaled060@gmail.com" ; 
 mail($to , $title , $body , $header) ;  
+
 }

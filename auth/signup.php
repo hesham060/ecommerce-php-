@@ -25,4 +25,5 @@ if ($count > 0) {
     sendEmail($email , "Verfiy Code Ecommerce" , "Verfiy Code $verfiycode") ; 
     insertData("users" , $data) ; 
 
+
 }
